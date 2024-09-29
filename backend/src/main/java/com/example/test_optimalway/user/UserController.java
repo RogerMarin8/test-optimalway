@@ -1,11 +1,14 @@
-package com.example.test_optimalway.controller;
+package com.example.test_optimalway.user;
 
-import com.example.test_optimalway.entity.User;
-import com.example.test_optimalway.repository.UserRepository;
+import com.example.test_optimalway.user.User;
+import com.example.test_optimalway.user.UserRepository;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/api/users")
@@ -63,4 +66,14 @@ public class UserController {
         }
     }
 
+    @GetMapping("/welcome")
+    public ResponseEntity<String> welcome() {
+        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+        String email = authentication.getName();
+
+        Optional<User> userOptional = userRepository.findByEmail(email);
+
+        User user = userOptional.get();
+        return ResponseEntity.ok("Benvingut " + user.getName() + " " + user.getSurname());
+    }
 }

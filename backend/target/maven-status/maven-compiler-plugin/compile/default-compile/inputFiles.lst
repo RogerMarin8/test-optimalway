@@ -1,4 +1,13 @@
-/Users/rogermarin/Desktop/test-optimalway/backend/src/main/java/com/example/test_optimalway/TestOptimalwayApplication.java
-/Users/rogermarin/Desktop/test-optimalway/backend/src/main/java/com/example/test_optimalway/controller/UserController.java
-/Users/rogermarin/Desktop/test-optimalway/backend/src/main/java/com/example/test_optimalway/entity/User.java
-/Users/rogermarin/Desktop/test-optimalway/backend/src/main/java/com/example/test_optimalway/repository/UserRepository.java
+/Users/rogermarin/Desktop/OptimalWayConsulting/test-optimalway/backend/src/main/java/com/example/test_optimalway/TestOptimalwayApplication.java
+/Users/rogermarin/Desktop/OptimalWayConsulting/test-optimalway/backend/src/main/java/com/example/test_optimalway/auth/AuthenticationController.java
+/Users/rogermarin/Desktop/OptimalWayConsulting/test-optimalway/backend/src/main/java/com/example/test_optimalway/auth/AuthenticationRequest.java
+/Users/rogermarin/Desktop/OptimalWayConsulting/test-optimalway/backend/src/main/java/com/example/test_optimalway/auth/AuthenticationResponse.java
+/Users/rogermarin/Desktop/OptimalWayConsulting/test-optimalway/backend/src/main/java/com/example/test_optimalway/auth/AuthenticationService.java
+/Users/rogermarin/Desktop/OptimalWayConsulting/test-optimalway/backend/src/main/java/com/example/test_optimalway/auth/RegisterRequest.java
+/Users/rogermarin/Desktop/OptimalWayConsulting/test-optimalway/backend/src/main/java/com/example/test_optimalway/config/ApplicationConfig.java
+/Users/rogermarin/Desktop/OptimalWayConsulting/test-optimalway/backend/src/main/java/com/example/test_optimalway/config/JwtAuthenticationFilter.java
+/Users/rogermarin/Desktop/OptimalWayConsulting/test-optimalway/backend/src/main/java/com/example/test_optimalway/config/JwtService.java
+/Users/rogermarin/Desktop/OptimalWayConsulting/test-optimalway/backend/src/main/java/com/example/test_optimalway/config/SecurityConfiguration.java
+/Users/rogermarin/Desktop/OptimalWayConsulting/test-optimalway/backend/src/main/java/com/example/test_optimalway/user/User.java
+/Users/rogermarin/Desktop/OptimalWayConsulting/test-optimalway/backend/src/main/java/com/example/test_optimalway/user/UserController.java
+/Users/rogermarin/Desktop/OptimalWayConsulting/test-optimalway/backend/src/main/java/com/example/test_optimalway/user/UserRepository.java
